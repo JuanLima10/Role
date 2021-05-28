@@ -1,0 +1,741 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+  
+  body{
+    margin: 0 auto;
+    background-color: #F4963F;
+  
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*--------------------------------------- 
+                <NavBar>
+----------------------------------------*/
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    max-width: 1170px;
+    margin: 0 auto;
+    gap: 30rem;
+
+    background: #FAE1CD;
+    padding: 1rem;
+    margin-top: 3.2rem;
+    background-position: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.NavBar img{
+    width: 14rem;
+}
+
+.NavBar .Routes a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 1.8rem;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #512C31;
+}
+
+.NavBar .Routes a:hover{
+    color: #F4963F;
+    transition: 0.4s;
+}
+
+.NavBar .Sociais a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 1.8rem;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #512C31;
+}
+/*--------------------------------------- 
+                </NavBar>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <Pagina Inicial>
+----------------------------------------*/
+.Home{
+    background-image: url(../img/homeImg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1004px;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 100vh;
+    margin-top: -10.9rem;
+}
+
+.HomeContent{
+    display: flex;
+    align-items: center;
+}
+
+.HomeContent .Hero1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.HomeContent img {
+    width: 36rem;
+}
+
+.HomeContent p{
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+
+    max-width: 67rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FAE1CD
+}
+
+.HomeContent a{
+    background: #512C31;
+    padding: 1.2rem 6rem 1.2rem 6rem;
+    margin-top: 3.2rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #FAE1CD;
+}
+
+.HomeContent a:hover{
+    background: #FAE1CD;
+    color: #512C31;
+    transition: 0.4s;
+}
+/*--------------------------------------- 
+            </Pagina Inicial>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <Form>
+----------------------------------------*/
+.Form{
+    background: #FAE1CD;
+    width: 100%;
+    height: 100vh;
+}
+
+.Form p{
+    max-width: 77rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 9.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5.6rem;
+    padding-bottom: 8.4rem;
+    color: #512C31;
+}
+
+.FormContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormContent .Hero1 img{
+    width: 57rem;
+}
+
+.FormContent .Hero2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FormContent .Hero2 p{
+    max-width: 57rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.FormContent .Hero2 input{
+    width: 38rem;
+    padding: 1.6rem;
+    margin-top: -5rem;
+    background: transparent;
+    border: 3px solid #3C3123;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #3C3123;
+    opacity: 0.5;
+}
+
+.FormContent .Hero2 .btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.FormContent .Hero2 .btns a{
+    width: 18rem;
+    background: #512C31;
+    padding: 1.2rem 6rem 1.2rem 6rem;
+    margin-top: 3.2rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #FAE1CD;
+}
+
+.FormContent .Hero2 a:hover{
+    background: #F4963F;
+    color: #512C31;
+    transition: 0.4s;
+}
+
+.FormContent .Hero2 .btns .principal{
+    width: 27rem;
+}
+
+.Pagination div{
+    display: block;
+    margin: auto;
+    width: 35rem;
+    padding: 4rem;
+}
+/*--------------------------------------- 
+            </Form>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <Form2>
+----------------------------------------*/
+.Form2{
+    background: #FAE1CD;
+    width: 100%;
+    height: 100vh;
+}
+
+.Form2 p{
+    max-width: 117rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 9.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5.6rem;
+    padding-bottom: 8.4rem;
+    color: #512C31;
+}
+
+.Select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form2Content .Select img{
+    width: 27rem;
+}
+
+.Form2Content .Select .btns{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3.2rem;
+}
+
+.Form2Content .Select .btns a{
+    width: 27rem;
+    background: #512C31;
+    padding: 1.2rem 6rem 1.2rem 6rem;
+    margin-top: 3.2rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #FAE1CD;
+}
+
+.Form2Content .Select a:hover{
+    background: #F4963F;
+    color: #512C31;
+    transition: 0.4s;
+}
+
+.Options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.OptionItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Options .OptionItem .OptionIcon p{
+    margin-top: -6rem;
+    margin-bottom: -12rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.Options .OptionItem .OptionIcon .gif{
+    width: 41rem;
+    height: 40rem;
+    left: calc(50% - 570px/2 - 300px);
+    top: calc(50% - 424px/2);
+    border-radius: 4rem;
+}
+  
+.Options .OptionItem .OptionIcon{
+    background: transparent;
+    border-radius: 5rem;
+    text-align: center;
+    padding: 2rem 2rem;
+    cursor: pointer;
+    color: #3C3123;
+    border: 0.5rem solid transparent;
+}
+
+.Options .OptionItem .checkbox:checked ~ .OptionIcon {
+    border-color: #F4963F;
+    background-color: #F4963F;
+}
+
+.Options .OptionItem .checkbox{
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.Form2Content .Select a:hover{
+    background: #F4963F;
+    color: #512C31;
+}
+
+/*--------------------------------------- 
+            </Form2>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <Form3>
+----------------------------------------*/
+.Form3{
+    background: #FAE1CD;
+    width: 100%;
+    height: 100%;
+}
+
+.Form3 p{
+    max-width: 77rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 9.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5.6rem;
+    padding-bottom: 8.4rem;
+    color: #512C31;
+}
+
+.Form3Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+}
+
+.Form3Content .Hero2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form3Content p{
+    max-width: 57rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.Form3Content input{
+    width: 38rem;
+    padding: 1.6rem;
+    margin-top: -5rem;
+    background: transparent;
+    border: 3px solid #3C3123;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #3C3123;
+    opacity: 0.5;
+}
+
+.Form3Content select{
+    width: 38rem;
+    padding: 1.6rem;
+    margin-top: -5rem;
+    background: transparent;
+    border: 3px solid #3C3123;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #3C3123;
+    opacity: 0.5;
+}
+
+.Form3Content .btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.Form3Content .btns a{
+    width: 27rem;
+    background: #512C31;
+    padding: 1.2rem 6rem 1.2rem 6rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #FAE1CD;
+}
+
+.Form3Content .btns a:hover{
+    background: #F4963F;
+    color: #512C31;
+}
+
+.Form3Content .btns a:nth-child(2){
+    width: 27rem;
+    background: #F4963F;
+    padding: 1.2rem 6rem 1.2rem 6rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    border-radius: 0.7rem;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: #512C31;
+}
+
+.Form3Content .btns a:nth-child(2):hover{
+    background: #512C31;
+    color: #FAE1CD;
+    transition: 0.4s;
+}
+/*--------------------------------------- 
+            </Form3>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <Result>
+----------------------------------------*/
+
+.Result{
+    display: none;
+    background: #FAE1CD;
+    width: 100%;
+    height: 100%;
+}
+
+.Result p{
+    max-width: 117rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 9.4rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5.6rem;
+    padding-bottom: 8.4rem;
+    color: #512C31;
+}
+
+.ResultContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+}
+
+.ResultContent p{
+    max-width: 57rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.ResultContent p:nth-child(4){
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.ResultContent img{
+    width: 27rem;
+    margin-top: 7rem;
+    margin-bottom: -1.6rem;
+}
+
+.ResultContent a{
+    margin-top: -6rem;
+    padding-bottom: 4rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 5.5rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+.ResultContent #result{
+    margin-top: -6rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+    color: #3C3123;
+}
+
+/*--------------------------------------- 
+            </Result>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            <ProgressBar>
+----------------------------------------*/
+
+.progressBar {
+    position: fixed;
+    background: #F4963F;
+    height: 1rem;
+    width: 0%;
+    top: 0;
+    left: 0;
+}
+
+/*--------------------------------------- 
+            </ProgressBar>
+----------------------------------------*/
+
+/*--------------------------------------- 
+            </Media>
+----------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+    .NavBar{
+        max-width: 90%;
+        gap: 0;
+    }
+    
+    .Form{
+        height: auto;
+    }
+    .FormContent{
+        flex-direction: column;
+    }
+    .FormContent .Hero1 img{
+        width: 37rem;
+    }
+    .FormContent .Hero2 a{
+        display: none;
+    }
+
+
+    .Form2{
+        height: auto;
+    }
+
+    .Select .btns a{
+        display: none;
+    }
+
+    .Options{
+        flex-direction: column;
+    }
+
+    .Options .OptionIcon img{
+        width: 17rem;
+    }
+
+    .Options .OptionItem .OptionIcon{
+        background-color: #f4963f5e;
+        width: 50rem;
+        border-radius: 5rem;
+        text-align: center;
+        padding: 2rem 2rem;
+        cursor: pointer;
+        color: #3C3123;
+        border: 0.5rem solid transparent;
+    }
+
+    .Options .OptionItem .checkbox:checked ~ .OptionIcon {
+        border-color: #F4963F;
+        background-color: #F4963F;
+    }
+
+    .Form3Content .btns a:nth-child(1){
+        display: none;
+    }
+
+    .Form3Content .btns a:nth-child(2){
+        width: 37rem;
+        padding: 1.6rem 6rem 1.6rem 6rem;
+    }
+    
+}
+
+@media screen and (max-width: 1025px) {
+    .Home{
+        background-image: none;
+    }
+
+    .HomeContent{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    html{
+        font-size: 50%;
+    }
+
+    p{
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html{
+        font-size: 46%;
+    }
+
+    .Options .OptionItem .OptionIcon{
+        max-width: 44rem;
+    }
+
+    .Options .OptionItem .OptionIcon .gif{
+        max-width: 30rem;
+        max-height: 30rem;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .Home{
+        height: 100%;
+    }
+
+    .HomeContent .Hero1 a{
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Form2 p{
+        max-width: 77rem;
+    }
+    
+    .Result p{
+        max-width: 77rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    html{
+        font-size: 38%;
+    }
+}
+
+/*--------------------------------------- 
+            </Media>
+----------------------------------------*/

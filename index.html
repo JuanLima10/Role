@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/homeLogo.png" type="image/x-icon">
+    <title>Rolê</title>
+</head>
+<body>
+    <div class="progressBar" id="loadBar"></div>
+<!-- <NavBar> -->
+
+    <div class="NavBar">
+        <img src="img/nabarLogo.png" alt="Rolê Logo">
+        <div class="Routes">
+            <a href="#">Home</a>
+            <a href="#Calculo">Calcular</a>
+        </div>
+        <div class="Sociais">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+<!-- </NavBar> -->
+
+<!-- <Home> -->
+
+    <div class="Home">
+        <div class="HomeContent">
+            <div class="Hero1">
+                <img src="img/homeLogo.png" alt="Rolê Logo">
+                <p>Calcule seu rolê sem complicação</p>
+                <a href="#Calculo">Bora Calcular !</a>
+            </div>
+        </div>
+    </div>
+
+<!-- </Home> -->
+
+<!-- <Form> -->
+    <form class="role">
+        <!-- <NB> -->
+        <div id="Calculo" class="Form">
+            <p>Vamos Começar...</p>
+            <div class="FormContent">
+                <div class="Hero1">
+                    <img src="img/ilustracaoForm1.svg" alt="Bar">
+                </div>
+                <div class="Hero2">
+                    <p>Em quantos bares você quer ir nesse rolê?</p>
+                    <input type="number" id="NB" placeholder="Coloque aqui"/>
+                    <div class="btns">
+                        <a href="#Calculo2" class="principal" onclick="validation();">Proxima</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </NB> -->
+        
+        <!-- <NIB> -->
+        <div id="Calculo2" class="Form2">
+            <p>Qual tipo de bar que estamos a procura?</p>
+            <div class="Form2Content">
+                <div class="Select">
+                    <div class="Options">
+                        <label class="OptionItem">
+                            <input type="radio" class="checkbox" name="NIB" value="rooftop" checked>
+                            <div class="OptionIcon">
+                                <img src="img/ilustraçãoCheck1.svg" alt="Rooftop">
+                                <p class="name">Rooftop</p>
+                            </div>
+                        </label>
+                        <label class="OptionItem">
+                            <input type="radio" class="checkbox" name="NIB" value="gimCentro">
+                            <div class="OptionIcon">
+                                <img src="img/ilustraçãoCheck2.svg" alt="Gim tônica do centro">
+                                <p class="name">Gim tônica do centro</p>
+                            </div>
+                        </label>
+                        <label class="OptionItem">
+                            <input type="radio" class="checkbox" name="NIB" value="litrao">
+                            <div class="OptionIcon">
+                                <img src="img/ilustraçãoCheck3.svg" alt="Litrão da esquina">
+                                <p class="name">Litrão da esquina</p>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="btns">
+                        <a href="#Calculo">Anterior</a>
+                        <a href="#Calculo3">Proxima</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </NIB> -->
+
+        <!-- <NBA> -->
+        <div id="Calculo3" class="Form">
+            <div class="progress-bar" id="js-barraDeLeitura"></div>
+            <p>Você vai em alguma balada nesee rolê?</p>
+            <div class="FormContent">
+                <div class="Hero1">
+                    <img src="img/ilustracaoForm3.svg" alt="Bar">
+                </div>
+                <div class="Hero2">
+                    <p>Em quantas baladas você quer ir?</p>
+                    <input type="number" id="NBA" placeholder="Coloque aqui"/>
+                    <div class="btns">
+                        <a href="#Calculo2">Anterior</a>
+                        <a href="#Calculo4">Proxima</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </NBA> -->
+
+        <!-- <NIBA> -->
+        <div id="Calculo4" class="Form2">
+            <p>Qual tipo de balada que deseja?</p>
+                <div class="Form2Content">
+                    <div class="Select">
+                        <div class="Options">
+                            <label class="OptionItem">
+                                <input type="radio" class="checkbox" name="NIBA" value="padrao" checked>
+                                <div class="OptionIcon">
+                                    <img class="gif" src="img/gif1.gif" alt="gif menino dançando">
+                                    <p class="name">Balada Padrão</p>
+                                </div>
+                            </label>
+                            <label class="OptionItem">
+                                <input type="radio" class="checkbox" name="NIBA" value="rei">
+                                <div class="OptionIcon">
+                                    <img class="gif" src="img/gif2.gif" alt="gif rei do camarote">
+                                    <p class="name">Balada rei do Camarote</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="btns">
+                            <a href="#Calculo3">Anterior</a>
+                            <a href="#Calculo5">Proxima</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </NBA> -->
+
+        <!-- <NIS> -->
+        <div id="Calculo5" class="Form2">
+            <p>Qual o nível de sede da rapaziada do rolê?</p>
+                <div class="Form2Content">
+                    <div class="Select">
+                        <div class="Options">
+                            <label class="OptionItem">
+                                <input type="radio" class="checkbox" name="NIS" value="social" checked>
+                                <div class="OptionIcon">
+                                    <img class="Sede" src="img/ilustracaoSede1.svg" alt="1 copo">
+                                    <p class="name">Social</p>
+                                </div>
+                            </label>
+                            <label class="OptionItem">
+                                <input type="radio" class="checkbox" name="NIS" value="comemoracao">
+                                <div class="OptionIcon">
+                                    <img class="Sede" src="img/ilustracaoSede2.svg" alt="2 copos">
+                                    <p class="name">Comemoração</p>
+                                </div>
+                            </label>
+                            <label class="OptionItem">
+                                <input type="radio" class="checkbox" name="NIS" value="esquecer">
+                                <div class="OptionIcon">
+                                    <img class="Sede" src="img/ilustracaoSede3.svg" alt="3 copos">
+                                    <p class="name">Esquecer o EX</p>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="btns">
+                            <a href="#Calculo4">Anterior</a>
+                            <a href="#Calculo6">Proxima</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="Pagination">
+                    <div></div>
+                </div>
+        </div>
+        <!-- </NIS> -->
+
+        <!-- <Finals> -->
+        <div id="Calculo6" class="Form3">
+            <p>E por último, só mais alguns detalhes...</p>
+            <div class="Form3Content">
+                <p>Qual a distancia até o rolê de Uber?</p>
+                <input type="number" id="KM" placeholder="Ex.: 10 KM"/>
+                <p>Que dia será o rolê?</p>
+                <select>
+                    <option name="DIA" value="dds">Dia de semana</option>
+                    <option name="DIA" value="sexta">Sexta</option>
+                    <option name="DIA" value="sabado">Sábado</option>
+                    <option name="DIA" value="domingo">Domingo</option>
+                </select>
+                <p>Mais algum gasto no rolê?</p>
+                <input type="number" id="O" placeholder="+ R$300"/>
+                <div class="btns">
+                    <a href="#Calculo5">Anterior</a>
+                    <a id="showFinal" href="#Final" onclick="calcRole();">Finalizar</a>
+                </div>
+            </div>
+        </div>
+        <!-- </Finals> -->
+
+        <!-- <valida> -->
+        <!-- <valida> -->
+
+        <!-- <Result> -->
+        <div id="Final" class="Result">
+            <p>Boa acabou, ta aqui seu gasto com o rolê</p>
+            <div class="ResultContent">
+                <img src="img/homeLogo.png" alt="Logo Rolê">
+                <p>Seu gasto será de:</p>
+                <div id="result"></div>
+                <p>Agora é só se arrumar e aproveitar o rolê</p>
+            </div>
+        </div>
+        <!-- </Result> -->
+
+    </form>
+<!-- </Form> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+
+    
+    $("#showFinal").click(function () {
+        if(NB.value != ""){
+            $("#Final").show();
+        }if(NBA.value !=""){
+            $("#Final").show();
+        }if(KM.value !=""){
+            $("#Final").show();
+        }if(O.value !=""){
+            $("#Final").show();
+        }else{
+            location.reload();
+            alert("Você não preencheu todos os campos")
+        }
+    });
+
+    </script>
+    <script src="https://kit.fontawesome.com/5fb634a247.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/calc.js"></script>
+</body>
+</html>
