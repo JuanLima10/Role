@@ -685,6 +685,16 @@ html{
     }
 }
 
+@media screen and (max-height: 900px){
+    .Form{
+        height: auto;
+    }
+
+    .Form2{
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 690px) {
     html{
         font-size: 50%;
