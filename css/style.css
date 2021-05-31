@@ -167,6 +167,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4rem;
 }
 
 .FormContent .Hero1 img{
@@ -269,6 +270,10 @@ html{
     padding-top: 5.6rem;
     padding-bottom: 8.4rem;
     color: #512C31;
+}
+
+.Form2Content{
+    padding: 4rem;
 }
 
 .Select{
@@ -401,6 +406,7 @@ html{
     align-items: center;
     justify-content: center;
     margin-top: -10rem;
+    padding: 4rem;
 }
 
 .Form3Content .Hero2{
@@ -539,6 +545,7 @@ html{
     align-items: center;
     justify-content: center;
     margin-top: -10rem;
+    padding: 4rem;
 }
 
 .ResultContent p{
