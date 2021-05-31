@@ -230,10 +230,18 @@
 
     </form>
 <!-- </Form> -->
+    
+<!-- <Back To Top> -->
+    <div class="BackToTop">
+        <a><i class="fas fa-arrow-alt-circle-up"></i></a>
+    </div>
+<!-- </Back To Top> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
 
+    
+    // <Show Result>
     
     $("#showFinal").click(function () {
         if(NB.value != ""){
@@ -249,6 +257,29 @@
             alert("Você não preencheu todos os campos")
         }
     });
+
+    // </Show Result>
+
+    // <Back To Top Animation>
+
+    jQuery(document).ready(function() {
+            // Exibe ou oculta o botão
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 200) {
+                    jQuery('.BackToTop').fadeIn(200);
+                } else {
+                    jQuery('.BackToTop').fadeOut(200);
+                }
+            });
+            
+            // Faz animação para subir
+            jQuery('.BackToTop').click(function(event) {
+                event.preventDefault();
+                jQuery('html, body').animate({scrollTop: 0}, 300);
+            })
+        });
+
+    // </Back To Top Animation>
 
     </script>
     <script src="https://kit.fontawesome.com/5fb634a247.js"></script>
