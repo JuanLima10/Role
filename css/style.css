@@ -609,6 +609,38 @@ html{
 ----------------------------------------*/
 
 /*--------------------------------------- 
+            <Back To Top>
+----------------------------------------*/
+
+.BackToTop {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0.2em;
+    right: 0.2em;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+.BackToTop a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 1.8rem;
+    font-size: 4rem;
+    line-height: 2.8rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #512C31;
+}
+
+/*--------------------------------------- 
+            </Back To Top>
+----------------------------------------*/
+
+/*--------------------------------------- 
             </Media>
 ----------------------------------------*/
 
@@ -685,16 +717,6 @@ html{
     }
 }
 
-@media screen and (max-height: 900px){
-    .Form{
-        height: auto;
-    }
-
-    .Form2{
-        height: auto;
-    }
-}
-
 @media screen and (max-width: 690px) {
     html{
         font-size: 50%;
@@ -702,6 +724,10 @@ html{
 
     p{
         padding: 2rem;
+    }
+
+    .BackToTop a{
+        display: none;
     }
 }
 
