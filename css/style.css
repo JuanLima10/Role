@@ -746,7 +746,7 @@ html{
     }
 }
 
-@media screen and (max-height: 640px) {
+@media screen and (max-height: 740px) {
     .Home{
         height: 100%;
     }
