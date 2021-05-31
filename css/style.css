@@ -724,6 +724,20 @@ html{
     }
 }
 
+@media screen and (max-height: 800px) {
+    html{
+        font-size: 52%;
+    }
+    
+    .Home{
+        height: 100%;
+    }
+
+    .HomeContent .Hero1 a{
+        margin-bottom: 10rem;
+    }
+}
+
 @media screen and (max-width: 690px) {
     html{
         font-size: 50%;
@@ -750,16 +764,6 @@ html{
     .Options .OptionItem .OptionIcon .gif{
         max-width: 30rem;
         max-height: 30rem;
-    }
-}
-
-@media screen and (max-height: 740px) {
-    .Home{
-        height: 100%;
-    }
-
-    .HomeContent .Hero1 a{
-        margin-bottom: 10rem;
     }
 }
 
