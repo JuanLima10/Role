@@ -60,6 +60,7 @@ function calcRole(){
 function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
+			files: "https://user-images.githubusercontent.com/69512975/119992089-8f03de00-bfa0-11eb-8558-f0555e61d6be.png",
 			title: 'Rolê',
 			text: 'Faça os calculos do seu rolê aqui',
 			url: 'https://juanlima10.github.io/role/index.html',
