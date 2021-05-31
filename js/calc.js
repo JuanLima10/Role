@@ -56,3 +56,15 @@ function calcRole(){
 
     document.getElementById("result").innerHTML = numberToReal(result);
 }
+
+function share(){
+	if (navigator.share !== undefined) {
+		navigator.share({
+			title: 'Rolê',
+			text: 'Faça os calculos do seu rolê aqui',
+			url: 'https://juanlima10.github.io/role/index.html',
+		})
+		.then(() => console.log('Successful share'))
+		.catch((error) => console.log('Error sharing', error));
+	}
+}
