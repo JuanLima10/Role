@@ -6,7 +6,7 @@
 </br>
 
 <div align="center"> 
-<a href="https://juanlima10.github.io/role/index.html">Veja o site</a>
+<a href="https://juanlima10.github.io/Role/index.html">Veja o site</a>
 </div>
 
 </br>
@@ -22,9 +22,3 @@
 + HTML
 + CSS
 + JavaScript
-
-## 🧾 Meus Contatos:
-
-* Linkedin: <a href="https://www.linkedin.com/in/juan-lima-297b9a1b4/">https://www.linkedin.com/in/juan-lima-297b9a1b4/</a>;
-* Instagram: <a href="https://www.instagram.com/juanlima051/">https://www.instagram.com/juanlima051/</a>;
-* Site: <a href="https://juanlima10.github.io/meuPort/">https://juanlima10.github.io/meuPort/</a>.
